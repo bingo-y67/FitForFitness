@@ -14,4 +14,5 @@ https://ozarktechwebdev.com/zechariah/fit-for-fitness/
 ## Screenshot  
 
 
-![Root Homepage Screenshot](./screenshot.png)
+
+![Homepage Screenshot](img/screenshot.png)
