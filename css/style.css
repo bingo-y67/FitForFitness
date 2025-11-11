@@ -1,0 +1,50 @@
+/* Flexbox Navigation per rubric */
+.primary-nav {
+  display: flex;
+}
+
+.primary-nav a {
+  display: block;
+  padding: .5rem .75rem;
+  text-decoration: none;
+  color: #212529;
+  border-radius: .5rem;
+}
+
+.primary-nav {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: .5rem;
+}
+
+.primary-nav a:hover {
+  background: #f1f3f5;
+}
+
+.primary-nav a.active {
+  background: #198754;
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  .primary-nav {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+  }
+}
+
+.site-header {
+  padding: 1rem 0;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.site-footer {
+  padding: 1rem 0;
+  border-top: 1px solid #e9ecef;
+}
+
+.hero {
+  padding: 2rem 0;
+}
